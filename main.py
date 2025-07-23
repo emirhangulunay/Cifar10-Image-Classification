@@ -74,7 +74,7 @@ def main():
     X_train, X_val, y_train, y_val = train_test_split(
         train_images,
         train_labels,
-        test_size=0.1,
+        test_size=0.2,
         random_state=42
     )
 
