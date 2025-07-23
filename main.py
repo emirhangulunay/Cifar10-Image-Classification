@@ -80,7 +80,7 @@ def main():
 
     history = model.fit(
         datagen.flow(X_train, y_train, batch_size=64),
-        epochs=100,
+        epochs=70,
         validation_data=(X_val, y_val),
         callbacks=[early_stop, checkpoint],
         verbose=2
